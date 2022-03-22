@@ -26,12 +26,12 @@ public class LexerImpl implements Lexer {
     public LexerImpl() {
         lexemeMatchers.put(IF, "if");
         lexemeMatchers.put(ELSE, "else");
-        lexemeMatchers.put(PRINT, "print");
         lexemeMatchers.put(TRUE, "true");
         lexemeMatchers.put(FALSE, "false");
+        lexemeMatchers.put(STRING, "string|\\\"([_a-zA-Z0-9 !\\\\/.])*\\\"|'([_a-zA-Z0-9 !\\\\/.])*'");
+        lexemeMatchers.put(PRINT, "print");
         lexemeMatchers.put(CONST, "const");
         lexemeMatchers.put(LET, "let");
-        lexemeMatchers.put(STRING, "string|\\\"([_a-zA-Z0-9 !\\\\/.])*\\\"|'([_a-zA-Z0-9 !\\\\/.])*'");
         lexemeMatchers.put(BOOLEAN, "boolean");
         lexemeMatchers.put(NUMBER, "number|-?[0-9.]+");
         lexemeMatchers.put(LEFTBRACE, "[{]");
@@ -42,8 +42,8 @@ public class LexerImpl implements Lexer {
         lexemeMatchers.put(COLON, ":");
         lexemeMatchers.put(EQUALEQUAL, "==");
         lexemeMatchers.put(EQUAL, "[=]");
-        lexemeMatchers.put(BANGEQUAL, "!=");
-        lexemeMatchers.put(BANG, "[!]");
+        lexemeMatchers.put(NEGEQUAL, "!=");
+        lexemeMatchers.put(NEG, "[!]");
         lexemeMatchers.put(GREATER, "[>]");
         lexemeMatchers.put(GREATEREQUAL, ">=");
         lexemeMatchers.put(LESS, "[<]");
