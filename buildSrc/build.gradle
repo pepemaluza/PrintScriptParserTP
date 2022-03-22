@@ -1,0 +1,10 @@
+repositories {
+    mavenCentral()
+}
+
+group 'org.austral'
+version '0.0.1'
+
+dependencies {
+    testImplementation 'junit:junit:4.13'
+}

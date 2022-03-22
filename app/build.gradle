@@ -1,0 +1,10 @@
+plugins {
+    id 'application'
+}
+
+group 'org.austral'
+version '0.0.1'
+
+//application {
+//    mainClass = 'org.austral.edu.Main'
+//}
