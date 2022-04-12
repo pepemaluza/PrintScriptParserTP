@@ -1,7 +1,7 @@
 plugins {
     id 'java-library'
     id 'jacoco'
-    id 'com.novoda.static-analysis'
+    id 'com.gradleup.static-analysis'
     id 'maven-publish'
 }
 
