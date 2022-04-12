@@ -5,17 +5,17 @@ plugins {
     id "com.github.scobal.eslint" version "1.0.4"
 }
 
-repositories {
-    mavenCentral()
-    maven {
-        name "GitHubPackages"
-        url "https://maven.pkg.github.com/austral-ingsis/printscript-parser-common"
-        credentials {
-            username System.getenv("USERNAME")
-            password System.getenv("TOKEN")
-        }
-    }
-}
+//repositories {
+//    mavenCentral()
+//    maven {
+//        name "GitHubPackages"
+//        url "https://maven.pkg.github.com/austral-ingsis/printscript-parser-common"
+//        credentials {
+//            username System.getenv("USERNAME")
+//            password System.getenv("TOKEN")
+//        }
+//    }
+//}
 
 dependencies {
     implementation 'org.austral.ingsis.printscript:printscript-parser-common:0.1.0'
