@@ -5,6 +5,8 @@
 *.log
 
 
+/build/
+
 *.bin
 *.xml
 *.lock
