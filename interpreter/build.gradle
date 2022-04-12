@@ -12,11 +12,10 @@ repositories {
     mavenCentral()
 }
 
-
 dependencies {
     testImplementation 'junit:junit:4.13'
-    compile project(':lexer')
-    compile project(':parser')
+    implementation project(':lexer')
+    implementation project(':parser')
 }
 
 test {

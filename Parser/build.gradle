@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
-    compile project(':lexer')
+    implementation project(':lexer')
+    implementation project(':parser')
+    implementation project(':interpreter')
     testImplementation 'junit:junit:4.13'
 }
